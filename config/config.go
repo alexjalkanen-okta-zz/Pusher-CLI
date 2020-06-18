@@ -29,7 +29,7 @@ func getUserHomeDir() string {
 }
 
 func getConfigPath() string {
-	return ".config/pusher.json"
+	return "~/.config/pusher.json"
 }
 
 //Init sets the config files location and attempts to read it in.
